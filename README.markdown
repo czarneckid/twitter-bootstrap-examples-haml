@@ -3,6 +3,8 @@
 A very simple [Sinatra](http://www.sinatrarb.com/) application where the example pages from the [Twitter Bootstrap](http://twitter.github.com/bootstrap/) framework 
 have been converted to [Haml](http://haml-lang.com/).
 
+This is current as Bootstrap v1.4.0.
+
 ## Installation
 
 ```ruby
