@@ -13,5 +13,3 @@ rackup
 ```
 
 You should now be able to view the application at [localhost:9292](http://localhost:9292).
-
-The application uses the "hero" template. If you would like to use another template, use the appropriate `haml ...` line in app.rb.
