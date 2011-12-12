@@ -2,7 +2,11 @@ require 'sinatra'
 require 'haml'
 
 get '/' do
-  # haml :"container-app"
-  # haml :fluid
-  haml :hero
+  haml :index
+end
+
+%w(container-app fluid hero).each do |view|
+  get "/#{view}" do
+    haml view.to_sym
+  end
 end

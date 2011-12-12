@@ -11,4 +11,13 @@ describe 'Application' do
       last_response.should be_ok
     end
   end
+
+  describe 'the various layouts' do
+    it 'should be able to show the different layouts' do
+      %w(container-app fluid hero).each do |view|
+        get "/#{view}"
+        last_response.should be_ok
+      end
+    end
+  end
 end
