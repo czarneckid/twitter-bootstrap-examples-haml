@@ -3,7 +3,7 @@
 A very simple [Sinatra](http://www.sinatrarb.com/) application where the example pages from the [Twitter Bootstrap](http://twitter.github.com/bootstrap/) framework 
 have been converted to [Haml](http://haml-lang.com/).
 
-This original example templates used were current as of Bootstrap v1.4.0.
+This original example templates used were current as of Bootstrap v2.0.0.
 
 ## Installation
 
